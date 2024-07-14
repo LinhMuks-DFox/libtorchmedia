@@ -1,9 +1,9 @@
-# Deep Learning Dev Template
+# LibTorchMedia
 
 ### Author:
 Mux
 ### Description
-A development template for deep learning projects using C++ and Python.
+A C++ lib, implement torchaudio, torchvision in C++, merge these lib into libtorchmedia
 
 ### Dependencies
 * Docker
@@ -28,10 +28,6 @@ For both C++ and Python development, build the Docker container first:
 ### VS Code Container Development Support
 Configuration files for VS Code container development are placed in the `.devcontainer/` and `.vscode/` directories.
 
-### Development Rules
-1. Place all C++ source files in directories starting with `pp`, such as `pp_src`, except for the `include` directory.
-2. Place all Python source files in directories starting with `py`, such as `py_src`.
-3. Build C++ executables in the `build` directory. **Do not** build them in the workspace root directory.
 
 ### Adding Python Dependencies
 This template uses `poetry` as the package manager for Python. To add a new library, use:
