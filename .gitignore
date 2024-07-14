@@ -1,0 +1,9 @@
+fmt/
+libtorch/
+build/
+*.log
+*.zip
+__pycache__/
+.venv/
+*.wav
+data/

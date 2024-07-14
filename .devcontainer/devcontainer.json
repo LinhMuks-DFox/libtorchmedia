@@ -1,0 +1,6 @@
+{
+    "name": "deep-learning-template",
+    "dockerComposeFile": "../docker/gpu/docker-compose.yaml",
+    "service": "deep_learning_template",
+    "workspaceFolder": "/workspace"
+}

@@ -1,0 +1,13 @@
+{
+    "autopep8.args": [
+        "--max-line-length 120"
+    ],
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build"
+    ],
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        120
+    ],
+    "clang-format.fallbackStyle": "WebKit"
+}

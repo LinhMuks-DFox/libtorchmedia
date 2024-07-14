@@ -1,0 +1,21 @@
+services:
+  deep_learning_template:
+    build:
+      context: ../../
+      dockerfile: docker/Dockerfile
+      args:
+        - PY_VERSION=3.10
+    container_name: deep_learning_template
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [ gpu ]
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    volumes:
+      - ../../:/workspace
+      - ~/.bashrc:/root/.bashrc # 将主机的 .bashrc 文件挂载到容器中
+      # - ./data/: "<container_dataset>"
+    tty: true
