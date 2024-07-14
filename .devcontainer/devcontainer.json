@@ -1,6 +1,6 @@
 {
-    "name": "deep-learning-template",
+    "name": "libtorchmedia",
     "dockerComposeFile": "../docker/gpu/docker-compose.yaml",
-    "service": "deep_learning_template",
+    "service": "libtorchmedia",
     "workspaceFolder": "/workspace"
 }

@@ -1,11 +1,11 @@
 services:
-  deep_learning_template:
+  libtorchmedia:
     build:
       context: ../../
       dockerfile: docker/Dockerfile
       args:
         - PY_VERSION=3.10
-    container_name: deep_learning_template
+    container_name: libtorchmedia
     deploy:
       resources:
         reservations:
