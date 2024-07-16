@@ -2,6 +2,9 @@
     "autopep8.args": [
         "--max-line-length 120"
     ],
+    // "clangd.arguments": [
+    //     "--compile-commands-dir=${workspaceFolder}/unit_test/audio_test/build"
+    // ],
     "clangd.arguments": [
         "--compile-commands-dir=${workspaceFolder}/build"
     ],
@@ -9,5 +12,5 @@
     "editor.rulers": [
         120
     ],
-    "clang-format.fallbackStyle": "WebKit"
+    "clang-format.fallbackStyle": "WebKit",
 }
